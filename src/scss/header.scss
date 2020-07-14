@@ -1,0 +1,71 @@
+.navbar {
+    background-color: $secColor;
+    padding: 23px;
+
+    .header{    
+        .navbar{
+            &-brand {
+                width: 23%;
+                margin-right: 50px;
+            }
+    
+            &-nav .nav-link {
+                color: var(--light);
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+}
+
+.jumbotron {
+    background-color: $maincolor;
+    color: var(--light);
+}
+
+.gb {
+    &__info {
+        &-headline, &-content {
+            text-align: center;
+        }
+
+        &-content {
+            font-size: 24px;
+            max-width: 780px;
+            margin: 30px auto 0;
+        }
+    }
+
+    &__generator {
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+        &-tab {
+            padding: 43px 10px;
+
+            h5 {
+                margin-left: 10px;
+            }
+        }
+
+        &-buttons {
+            justify-content: center;
+        }
+
+        &-button {
+            width: 29%;
+            margin-right: 12px;
+            height: 48px;
+
+            &.btn-outline-primary {
+                margin-top: 0;
+                color: $maincolor;
+                border-color: $maincolor;
+
+                &:hover, &:focus{
+                    background: #f1f1f1 !important;
+                }
+            }
+        }
+    }
+}

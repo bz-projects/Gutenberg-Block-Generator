@@ -1,0 +1,73 @@
+*, *:before, *:after {
+    outline: none;
+    box-sizing: inherit;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    font-family: $mainfont;
+    font-weight: 400;
+    font-size: 16px;
+    
+    color: $mainfontcolor;
+    line-height: 1.625;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+label {
+    font-size: 14px;
+    color: #555d66;
+}
+
+a {
+    color: $maincolor;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: $maincolor;
+    border-color: $maincolor;
+
+    &:hover, &:focus{
+        background-color: $maincolor !important;
+        border-color: transparent;
+        
+    }
+
+    &:focus {
+        box-shadow: 0 0 0 1px #fff, 0 0 0 3px $maincolor;
+    }
+}
+
+.form-group {
+    margin: 18px 10px 10px;
+}
+
+.form-control {
+    &:focus {
+        border-color: $maincolor;
+        box-shadow: 0 0 0 1px $maincolor;
+        outline: 2px solid #0000;
+    }
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    padding: 24px 40px;
+    color: inherit;
+
+    &.active {
+        font-weight: 700;
+        border-color: transparent;
+        box-shadow: inset 0 -3px $maincolor;
+    }
+}

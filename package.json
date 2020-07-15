@@ -8,7 +8,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react-color": "^2.18.1",
-    "react-redux": "^7.2.0",
+    "react-colorpicker": "^0.3.14",
     "react-scripts": "3.4.1"
   },
   "scripts": {
@@ -27,9 +27,9 @@
       "not op_mini all"
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 5 chrome version",
+      "last 5 firefox version",
+      "last 5 safari version"
     ]
   },
   "devDependencies": {
@@ -37,10 +37,10 @@
     "classnames": "^2.2.6",
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
+    "pullstate": "^1.15.4",
     "react": "^16.13.1",
     "react-bootstrap": "^1.2.2",
     "react-dom": "^16.13.1",
-    "react-icon-picker": "^1.0.0",
     "react-multistep": "^5.0.5",
     "react-transition-group": "^4.4.1"
   }

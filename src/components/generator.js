@@ -29,7 +29,7 @@ export default class Generator extends Component {
                     </h4>
                     <img src="https://i.ibb.co/CPcKyb5/block.jpg" alt="Gutenberg Backend" />
 
-                    <Tabs defaultActiveKey="general" id="uncontrolled-tab-example">
+                    <Tabs transition={false} defaultActiveKey="general" id="uncontrolled-tab-example">
                         <Tab eventKey="general" title="General">
                             <div className="gb__generator-tab">
                                 <form>
@@ -42,32 +42,31 @@ export default class Generator extends Component {
                         </Tab>
                         <Tab eventKey="supports" title="Supports">
                             <div className="gb__generator-tab">
-                                <form>
-                                    <BasicsStep />
-                                </form>
-                            </div>
-                        </Tab>
-                        <Tab eventKey="components" title="Components">
-                            <div className="gb__generator-tab">
-                                <form>
-                                    <BasicsStep />
-                                </form>
-                            </div>
-                        </Tab>
-                        <Tab eventKey="generate" title="Generate">
-                            <div className="gb__generator-tab">
-                                <form>
-                                    <BasicsStep />
-                                </form>
+                                <h4>
+                                    Hallo
+                                </h4>
                             </div>
                         </Tab>
                     </Tabs>
                     <div className="container global-space">
                         <article className="gb__generator-buttons row">
-                            <Button className="gb__generator-button" variant="primary" size="lg" block>
+                            <Button 
+                                className="gb__generator-button" 
+                                variant="primary" 
+                                size="lg" 
+                                block 
+                                onClick={ ( ) => {
+                                    alert('TEST')
+                                }}
+                            >
                                 Generate
                             </Button>
-                            <Button className="gb__generator-button" variant="outline-primary" size="lg" block>
+                            <Button
+                                className="gb__generator-button" 
+                                variant="outline-primary" 
+                                size="lg" 
+                                block
+                            >
                                 Reset
                             </Button>
                         </article>

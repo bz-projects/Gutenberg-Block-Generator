@@ -2,6 +2,9 @@ import { Store } from "pullstate";
 
 export const GBStore = new Store({
 
+    // Generat 
+    isCodeVis: false,
+
     // Block General 
     BlockName : 'Gutenberg Block Name',
     BlockID   : 'core/paragraph',

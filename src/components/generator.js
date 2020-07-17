@@ -1,10 +1,17 @@
 import React, { Component } from 'react';
-import { Tab, Tabs, Button } from 'react-bootstrap';
+import { Tab, Tabs, Button, Spinner } from 'react-bootstrap';
 import { BasicsStep } from './steps/basics';
+import { CodeGenerator } from './code';
+import { GBStore } from '../store';
 
 export default class Generator extends Component {
-    render() {
 
+    
+    state = {
+        isCodeVis: false 
+    }
+
+    render() {
         return(
             <>
                 <div className="gb__info jumbotron">
@@ -56,7 +63,15 @@ export default class Generator extends Component {
                                 size="lg" 
                                 block 
                                 onClick={ ( ) => {
-                                    alert('TEST')
+                                  
+                                    this.setState( {
+                                        isCodeVis: true
+                                    });
+
+                                    GBStore.update(e => {
+                                        e.isCodeVis = true;
+                                    });
+                                  
                                 }}
                             >
                                 Generate
@@ -71,6 +86,7 @@ export default class Generator extends Component {
                             </Button>
                         </article>
                     </div>
+                    <CodeGenerator />
                 </main>
             </>
         )

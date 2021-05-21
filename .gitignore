@@ -2,6 +2,7 @@
 /.pnp
 .pnp.js
 build
+build/*
 dist
 
 # testing

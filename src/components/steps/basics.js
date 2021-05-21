@@ -98,7 +98,7 @@ export class BasicsStep extends Component {
                                 <option value="layout">Layout Elements</option>
                                 <option value="widget">Widgets</option>
                                 <option value="embeds">Embeds</option>
-                                <option value="own">Your own Category</option>
+                                <option value="own">Your own category</option>
                             </FormControl>
                         </FormGroup>
 

@@ -1,12 +1,12 @@
 .navbar {
     background-color: $secColor;
-    padding: 23px;
+    padding: 4px;
 
     .header{    
         .navbar{
             &-brand {
-                width: 23%;
-                margin-right: 50px;
+                width: 20%;
+                margin-right: 44px;
             }
     
             &-nav .nav-link {
@@ -18,9 +18,41 @@
     }
 }
 
+.navbar {
+    background-color: $secColor;
+    padding: 4px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 1px 1px 20px #3b454e8a;
+}
+
 .jumbotron {
     background-color: $maincolor;
     color: var(--light);
+    margin-top: 93px;
+}
+
+.card {
+    border-radius: 0;
+}
+
+.accordion>.card>.card-header {
+    background: #f7f7f7;
+
+    button {
+        color: $maincolor;
+        text-decoration: none;
+        font-weight: 700;
+
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
 }
 
 .gb {

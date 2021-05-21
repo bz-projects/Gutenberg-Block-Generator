@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tab, Tabs, Button, Spinner } from 'react-bootstrap';
+import { Tab, Tabs, Button } from 'react-bootstrap';
 import { BasicsStep } from './steps/basics';
 import { CodeGenerator } from './code';
 import { GBStore } from '../store';
@@ -18,24 +18,20 @@ export default class Generator extends Component {
                     <div className="gb__info-container container">
                         <h1 className="gb__info-headline display-4">Gutenberg Block Generator</h1>
                         <p className="gb__info-content lead">
-                            Use our first biggest Gutenberg Online Creater Tool and enjoy developing with WordPress! 
+                           Gutenberg Development made <strong>easy, simple, free and powerfull.</strong>  
                         </p>
                     </div>   
                 </div>
                 <main className="gb__generator container">
                     <article className="global-space">
                         <h3>
-                            Gutenberg Components
+                            Gutenberg Basic Generator - WIP
                         </h3>
                         <p>
-                            Choose your components and check it out!
+                            Notice: This plattform is still WIP. For the first version I created a lightweight system to generate simple Gutenberg Code. <br/>
+                            I need your help! Let's create a plattform together. One developer project for everybody!
                         </p>
                     </article>
-                    <h4>
-                        Block Preview
-                    </h4>
-                    <img src="https://i.ibb.co/CPcKyb5/block.jpg" alt="Gutenberg Backend" />
-
                     <Tabs transition={false} defaultActiveKey="general" id="uncontrolled-tab-example">
                         <Tab eventKey="general" title="General">
                             <div className="gb__generator-tab">
@@ -45,13 +41,6 @@ export default class Generator extends Component {
                                         <BasicsStep />
                                     </fieldset>
                                 </form>
-                            </div>
-                        </Tab>
-                        <Tab eventKey="supports" title="Supports">
-                            <div className="gb__generator-tab">
-                                <h4>
-                                    Hallo
-                                </h4>
                             </div>
                         </Tab>
                     </Tabs>
@@ -86,6 +75,7 @@ export default class Generator extends Component {
                             </Button>
                         </article>
                     </div>
+
                     <CodeGenerator />
                 </main>
             </>

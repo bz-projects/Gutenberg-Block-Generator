@@ -16,7 +16,7 @@ export default class Header extends Component {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="gb__navbar-list mr-auto">
                             <Nav.Link className="gb__navbar-list-link" href="#home">Home</Nav.Link>
-                            <Nav.Link className="gb__navbar-list-link" target="_blank" href="https://gutenberg.benjamin-zekavica.de/">Gutenberg Handbook</Nav.Link>
+                            <Nav.Link className="gb__navbar-list-link" target="_blank" href="https://www.gutenberg-handbook.com/">Gutenberg Handbook</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </div>

@@ -11,7 +11,7 @@ export default class Footer extends Component {
                                 <h6 className="footer__headline">Gutenberg development</h6>
                                 <li><a rel="noopener noreferrer" target="_blank" href="https://wordpress.org/" title="WordPress Website">WordPress Organisation</a></li>
                                 <li><a rel="noopener noreferrer" target="_blank" href="https://developer.wordpress.org/block-editor/" title="Gutenberg Handbook">Official Handbook </a></li>
-                                <li><a rel="noopener noreferrer" target="_blank" href="https://gutenberg.benjamin-zekavica.de/" title="Gutenberg Help">Developer Handbook</a></li>
+                                <li><a rel="noopener noreferrer" target="_blank" href="https://www.gutenberg-handbook.com/" title="Gutenberg Help">Developer Handbook</a></li>
                                 <li><a rel="noopener noreferrer" target="_blank" href="https://github.com/WordPress/gutenberg" title="Gutenberg GitHub">GitHub Gutenberg</a></li>
                                 <li><a rel="noopener noreferrer" target="_blank" href="https://marketplace.visualstudio.com/items?itemName=BenjaminZekavica.wordpress-gutenberg-snippets" title="Gutenberg VS Code">Gutenberg VS Code</a></li>
                                 <li><a rel="noopener noreferrer" target="_blank" href="https://gutenberg-theme.xyz/" title="Gutenberg theme.json">Gutenberg theme.json</a></li>

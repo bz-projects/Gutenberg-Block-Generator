@@ -31,6 +31,9 @@ export default class Generator extends Component {
                             Notice: This plattform is still WIP. For the first version I created a lightweight system to generate simple Gutenberg Code. <br/>
                             I need your help! Let's create a plattform together. One developer project for everybody!
                         </p>
+                         <p>
+                            <iframe src="https://ghbtns.com/github-btn.html?user=bz-projects&repo=Gutenberg-Block-Generator&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+                        </p>
                     </article>
                     <Tabs transition={false} defaultActiveKey="general" id="uncontrolled-tab-example">
                         <Tab eventKey="general" title="General">

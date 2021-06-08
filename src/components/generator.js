@@ -18,7 +18,7 @@ export default class Generator extends Component {
                     <div className="gb__info-container container">
                         <h1 className="gb__info-headline display-4">Gutenberg Block Generator</h1>
                         <p className="gb__info-content lead">
-                           Gutenberg Development made <strong>easy, simple, free and powerfull.</strong>  
+                           Gutenberg Development made <strong>simple, free and powerfull.</strong>  
                         </p>
                     </div>   
                 </div>
